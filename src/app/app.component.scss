@@ -1,0 +1,34 @@
+$header-color: #14143c;
+$sidebar-color: #e9ecef;
+
+:host {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+header {
+    background-color: $header-color;
+    padding: 2em;
+}
+header .title {
+    font-size: 28px;
+    color: white;
+}
+main {
+    display: flex;
+    flex-grow: 1;
+}
+.left-bar {
+    width: 20em;
+    background-color: $sidebar-color;
+}
+.map-container {
+    flex-grow: 1;
+}
+footer {
+    background-color: $sidebar-color;
+    padding: 1em;
+}
+
+
+

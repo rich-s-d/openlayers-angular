@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+$text-color: red;
+$header-color: #D1DFB7;
+$sidebar-color: #FAE6BE;
+
+
+@mixin body {
+    font-family: 'Roboto';
+    color: $text-color;
+    margin: 0;
+    --header-color: $header-color;
+    --sidebar-color: $sidebar-color;
+    --text-color: $text-color;
+}
+
