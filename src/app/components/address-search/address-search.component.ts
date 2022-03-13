@@ -1,7 +1,7 @@
 import { Component, OnInit, ChangeDetectionStrategy, ViewChild, ElementRef, AfterViewInit, Input } from '@angular/core';
 import { MapService } from '../../services/map.service';
 import { MapLayerService } from '../../services/map-layer.service';
-import { * as dawaAutocomplete } from 'dawa-autocomplete2';
+import * as dawaAutocomplete from 'dawa-autocomplete2';
 import { OlFactory } from 'src/app/model/olFactory';
 import { Point } from 'ol/geom/Point';
 
