@@ -1,8 +1,8 @@
 <header>
   <div class="title">WebGIS 1.0</div>
-  <div class="address search">
-    <input #address type="text" placeholder="Search an address in Denmark" />
-  </div>
+    <div style="overflow: hidden; white-space: nowrap;">
+      <app-address-search [map]="map"></app-address-search>
+    </div>
 </header>
 <main>
   <div class="left-bar"></div>
